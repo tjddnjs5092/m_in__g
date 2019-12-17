@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Project</title>
+    <link href="./main.3f6952e4.css" rel="stylesheet">
+</head>
+
+<body class="">
+    <div id="site-border-left"></div>
+    <div id="site-border-right"></div>
+    <div id="site-border-top"></div>
+    <div id="site-border-bottom"></div>
+
+    <header>
+        <nav class="navbar  navbar-fixed-top navbar-default">
+            <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="./index.html" title="">01 : Home</a></li>
+                        <li><a href="./menu.html" title="">02 : Menu</a></li>
+                        <li><a href="./about.html" title="">03 : About me</a></li>
+                        <li><a href="./contact.html" title="">04 : Contact</a></li>
+                    </ul>
+
+
+                    <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+                        <li><a href="./ability.html" title="" class="active">001</a></li>
+                        <li><a href="./index3.html" title="">002</a></li>
+                        <li><a href="./hobby.html" title="">003</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="section-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="./img/work001-01.jpg" class="img-responsive" alt="">
+                    <div class="card-container">
+                        <div class="text-center">
+                            <h1 class="h2">001 : Ability</h1>
+                        </div>
+                        <h3>나의 능력치 소개</h3>
+
+                        <style>
+                            body {
+                                padding: 50px;
+                            }
+
+                            .graph {
+                                height: 40px;
+                                margin: 0 0 30px;
+                                background: #ccc;
+                                border-radius: 40px;
+                            }
+
+                            .graph span {
+                                display: block;
+                                padding: 0 10px;
+                                height: 40px;
+                                line-height: 40px;
+                                text-align: right;
+                                border-radius: 40px;
+                                box-sizing: border-box;
+                                color: #fff;
+                            }
+
+                            .graph.stack span {
+                                background: violet;
+                                animation: stack 2s 1;
+                            }
+
+                            .graph.stack2 span {
+                                background: skyblue;
+                                animation: stack2 2s 1;
+                            }
+
+                            .graph.stack3 span {
+                                background: orange;
+                                animation: stack3 2s 1;
+                            }
+
+                            .graph.stack4 span {
+                                background: mediumslateblue;
+                                animation: stack4 2s 1;
+                            }
+
+                            .graph.stack5 span {
+                                background: deeppink;
+                                animation: stack5 2s 1;
+                            }
+
+                            @keyframes stack {
+                                0% {
+                                    width: 0;
+                                    color: rgba(255, 255, 255, 0);
+                                }
+
+                                40% {
+                                    color: rgba(255, 255, 255, 1);
+                                }
+
+                                100% {
+                                    width: 90%;
+                                }
+                            }
+
+                            @keyframes stack2 {
+                                0% {
+                                    width: 0;
+                                    color: rgba(255, 255, 255, 0);
+                                }
+
+                                40% {
+                                    color: rgba(255, 255, 255, 1);
+                                }
+
+                                100% {
+                                    width: 55%;
+                                }
+                            }
+
+                            @keyframes stack3 {
+                                0% {
+                                    width: 0;
+                                    color: rgba(255, 255, 255, 0);
+                                }
+
+                                40% {
+                                    color: rgba(255, 255, 255, 1);
+                                }
+
+                                100% {
+                                    width: 75%;
+                                }
+                            }
+
+                            @keyframes stack4 {
+                                0% {
+                                    width: 0;
+                                    color: rgba(255, 255, 255, 0);
+                                }
+
+                                40% {
+                                    color: rgba(255, 255, 255, 1);
+                                }
+
+                                100% {
+                                    width: 90%;
+                                }
+                            }
+
+                            @keyframes stack5 {
+                                0% {
+                                    width: 0;
+                                    color: rgba(255, 255, 255, 0);
+                                }
+
+                                40% {
+                                    color: rgba(255, 255, 255, 1);
+                                }
+
+                                100% {
+                                    width: 70%;
+                                }
+                            }
+
+                        </style>
+                        인내심
+                        <div class="graph stack">
+                            <span style="width: 90%;">90%</span>
+                        </div>
+                        결단력
+                        <div class="graph stack2">
+                            <span style="width: 55%;">55%</span>
+                        </div>
+                        사교성
+                        <div class="graph stack3">
+                            <span style="width: 75%;">75%</span>
+                        </div>
+                        먹성
+                        <div class="graph stack4">
+                            <span style="width: 90%;">90%</span>
+                        </div>
+                        체력
+                        <div class="graph stack5">
+                            <span style="width: 70%;">70%</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            navActivePage();
+        });
+
+    </script>
+    <script type="text/javascript" src="./main.70a66962.js"></script>
+</body>
+
+</html>
